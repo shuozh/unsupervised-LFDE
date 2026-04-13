@@ -2,7 +2,7 @@ train_dataset:
   type: HCInewDataset
   batch_size: 20
   args:
-    iters_in_one_epoch: 100
+    iters_in_one_epoch: 2000
     patch_size: 64
     path: ../../../dataset/hci_dataset
 model_setting: {}
